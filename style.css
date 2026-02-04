@@ -80,7 +80,7 @@ body {
 #app_ui {
     position: relative;
     left: calc(50% - 150pt);
-    top: 20vh;
+    top: 30dvh;
     display: grid;
     grid-auto-flow: column;
     grid-template: repeat(1, 1fr) / 20% 80%;
@@ -220,4 +220,5 @@ body {
     background-color: var(--building-elevator-color);
     border-radius: 3px;
     transition: all ease-in-out 0.25s;
+
 }
